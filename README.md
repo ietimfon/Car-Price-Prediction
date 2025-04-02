@@ -53,8 +53,8 @@ This project predicts the current market price of used cars based on features li
 |Year|-0.015(Negative)|
 
 ### 📝 Conclusion & Business Impact
-✔ Strongest Price Drivers: Selling price & Fuel Type.
-✔ Mileage Matters: High kilometer readings reduce resale value.
+- ✔ Strongest Price Drivers: Selling price & Fuel Type.
+- ✔ Mileage Matters: High kilometer readings reduce resale value.
 
 #### Future Improvements:
 - Try Random Forest / XGBoost for better accuracy.
