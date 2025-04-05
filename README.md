@@ -39,10 +39,10 @@ This project predicts the current market price of used cars based on features li
 - ✅ Prediction – Estimating present car prices
 
 ### 🔍 Key Insights from EDA
-📌 Year vs. Price: Newer cars have higher present prices.
-📌 Fuel Type Impact: Diesel cars are generally priced higher than petrol.
-📌 Low Mileage Effect: Cars with fewer kilometers driven have better resale value.
-📌 Manual vs. Automatic: Automatic cars tend to have a slightly higher price.
+- 📌 Year vs. Price: Newer cars have higher present prices.
+- 📌 Fuel Type Impact: Diesel cars are generally priced higher than petrol.
+- 📌 Low Mileage Effect: Cars with fewer kilometers driven have better resale value.
+- 📌 Manual vs. Automatic: Automatic cars tend to have a slightly higher price.
 
 #### 📊 Correlation Analysis
 |Feature|Correlation with Present Price|
