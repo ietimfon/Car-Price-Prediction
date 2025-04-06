@@ -26,7 +26,7 @@ This project predicts the current market price of used cars based on features li
 |Owner|Number of previous owners|Numerical|
 |Present Price|Current market price (Target)|Numerical|
 
-### Tech Stack & Libraries
+### Tech Stack and Libraries
 - Python 3.7+
 - Jupyter Notebook
 - Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
@@ -52,7 +52,7 @@ This project predicts the current market price of used cars based on features li
 |Driven Kms|0.38 (Moderate)|
 |Year|-0.015(Negative)|
 
-### Conclusion & Business Impact
+### Conclusion and Business Impact
 - ✔ Strongest Price Drivers: Selling price & Fuel Type.
 - ✔ Mileage Matters: High kilometer readings reduce resale value.
 
