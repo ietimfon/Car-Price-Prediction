@@ -11,7 +11,7 @@
 - [Conclusion and Business Impact](#conclusion-and-business-impact)
 
 ### About the Project
-This project predicts the current market price of used cars based on features like brand, manufacturing year, kilometres driven, fuel type, and more. Using Linear Regression, the model helps buyers and sellers estimate fair pricing for new and pre-owned vehicles.
+This project predicts the current market price of used cars based on features like brand, manufacturing year, kilometres driven, fuel type, and more. Using Random Forest Regressor, the model helps buyers and sellers estimate fair pricing for new and pre-owned vehicles.
 
 ### Dataset Features
 |Feature|Description|Type|
@@ -34,8 +34,8 @@ This project predicts the current market price of used cars based on features li
 ### Key Steps
 - ✅ Exploratory Data Analysis (EDA) – Statistical insights & visualizations
 - ✅ Data Preprocessing – Handling missing values, encoding categorical data, feature scaling
-- ✅ Model Training – Linear Regression for price prediction
-- ✅ Evaluation – Performance metrics (R², RMSE)
+- ✅ Model Training – Linear Regression and Random Forest Regressor for price prediction
+- ✅ Evaluation – Performance metrics (R², MSE); Random Forest Regressor gave a better evaluation
 - ✅ Prediction – Estimating present car prices
 
 ### Key Insights from EDA
@@ -52,11 +52,18 @@ This project predicts the current market price of used cars based on features li
 |Driven Kms|0.38 (Moderate)|
 |Year|-0.015(Negative)|
 
+#### Model Evaluation Comparison
+|Metric|Linear Regression|Random Forest Regressor|
+|------|-----------------|-----------------------|
+|Mean Squared Error|22.11|15.17|
+|R-Squared|0.60|0.72|
+
+
 ### Conclusion and Business Impact
 - ✔ Strongest Price Drivers: Selling price & Fuel Type.
 - ✔ Mileage Matters: High kilometer readings reduce resale value.
 
 #### Future Improvements
-- Try Random Forest / XGBoost for better accuracy.
+- Try XGBoost for better accuracy.
 - Include more features like car condition, location, etc.
 
